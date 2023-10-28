@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Página Bootstrap</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        .custom-padding {
+            padding: 20px;
+        }
+        .content {
+            text-align: center;
+            border: 5px solid #4b6294;
+            padding: 20px;
+            border-radius: 17%;
+            background-color: antiquewhite;
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+        }
+        .content img {
+            max-width: 100%;
+            height: auto;
+        }
+        .title {
+            text-align: center;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 300%;
+            color: #4b6294;
+        }
+        .btn {
+            color: #4b6294;
+            background-color: white;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        .content button:hover {
+            background-color: #4b6294;
+            color: aliceblue;
+        }
+        
+        .competence{
+            background-color: #e4e69d1f;
+            border: 2px solid #aeaeb8;
+            border-radius: 25%; 
+            padding: 10px;
+            margin-top: 5%;
+        }
+        
+
+        
+    </style>
+</head>
+<body style="background-color: #fffff2;">
+
+    <div class="container mt-5">
+        <h1 class="title">Professores</h1>
+        <hr class="w-25 mx-auto border">
+    </div>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 col-md-5 col-lg-4 mb-3 mx-auto">
+                <div class="content">
+                    <img src="imagem1.jpg" alt="Imagem 1">
+                    <h1> Inácio </h1>
+                    <div class="competence">
+                        <h4>Competências:</h4>
+                        <ul>
+                            <li>Química</li>
+                            <li>Física</li>
+                        </ul>
+                    </div>
+                    <button class="btn">Contate o professor</button>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-5 col-lg-4 mb-3 mx-auto">
+                <div class="content">
+                    <img src="imagem2.jpg" alt="Imagem 2">
+                    <h1>Carla</h1>
+                    <div class="competence">
+                        <h4>Competências:</h4>
+                        <ul>
+                            <li>Inglês</li>
+                            <li>História</li>
+                        </ul>
+                    </div>
+
+                    <button class="btn">Contate a professora</button>
+                </div>
+            </div>
+        </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
